@@ -6,11 +6,12 @@ import subprocess
 import sys
 import os
 
+
 def get_redirect_url(query):
     script_dir = os.path.dirname(__file__)
-    json_path = os.path.join(script_dir, 'source.json')
+    json_path = os.path.join(script_dir, "source.json")
     try:
-        with open(json_path, 'r') as f:
+        with open(json_path, "r") as f:
             bangs_list = json.load(f)
     except FileNotFoundError:
         print(f"Error: {json_path} not found.", file=sys.stderr)
@@ -48,10 +49,15 @@ def get_redirect_url(query):
     final_url = selected_bang["u"].replace("{{{s}}}", quote(clean_query, safe=""))
     return final_url
 
+
 def main():
-    parser = argparse.ArgumentParser(description="resolve a string to a URL and either open it or print it.")
+    parser = argparse.ArgumentParser(
+        description="resolve a string to a URL and either open it or print it."
+    )
     parser.add_argument("query", help="The search query or bang command.")
-    parser.add_argument("--open", "-o", action="store_true", help="Open the URL using xdg-open.")
+    parser.add_argument(
+        "--open", "-o", action="store_true", help="Open the URL using xdg-open."
+    )
 
     args = parser.parse_args()
 
@@ -69,6 +75,7 @@ def main():
     else:
         print("Could not determine a redirect URL.", file=sys.stderr)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
