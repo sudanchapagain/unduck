@@ -3,6 +3,7 @@
 #include <iostream>
 #include <string>
 #include <unordered_map>
+#include <unistd.h>
 
 #include "../include/nlohmann/json.hpp"
 
@@ -153,13 +154,20 @@ main(int argc, char* argv[]) {
 
     std::string exe_dir;
     {
-        char* path = realpath(argv[0], nullptr);
-        if (path) {
-            exe_dir = path;
-            free(path);
-            auto slash = exe_dir.rfind('/');
-            if (slash != std::string::npos) exe_dir = exe_dir.substr(0, slash);
+        char buf[4096];
+        ssize_t len = readlink("/proc/self/exe", buf, sizeof(buf) - 1);
+        if (len != -1) {
+            buf[len] = '\0';
+            exe_dir = buf;
+        } else {
+            char* path = realpath(argv[0], nullptr);
+            if (path) {
+                exe_dir = path;
+                free(path);
+            }
         }
+        auto slash = exe_dir.rfind('/');
+        if (slash != std::string::npos) exe_dir = exe_dir.substr(0, slash);
     }
 
     auto bangs = load_bangs(exe_dir + "/source.json");
