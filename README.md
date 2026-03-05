@@ -1,8 +1,8 @@
 unduck
 ======
 
-faster way to resolve duckduckgo bangs.
+Faster way to resolve DuckDuckGo bangs.
 
-> this is a port of theo browne's implementation as i want to resolve bang
-> urls to integrate into my operating system instead of browser's search
-> engine option.
+> This is a port of Theo Browne's implementation. His is made to be resolved
+> in the web. This is made to resolve locally. Additionally, I do not need
+> all the URLs to be resolved, just common ones.

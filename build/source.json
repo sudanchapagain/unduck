@@ -1,0 +1,344 @@
+[
+  {
+    "c": "Entertainment",
+    "d": "trakt.tv",
+    "r": 295,
+    "s": "Trakt",
+    "sc": "TV",
+    "t": "trakt",
+    "u": "http://trakt.tv/search?utf8=%E2%9C%93&query={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "trakt.tv",
+    "r": 0,
+    "s": "Trakt IMDb",
+    "sc": "Movies",
+    "t": "tki",
+    "u": "https://trakt.tv/search/imdb?query={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "trakt.tv",
+    "r": 6,
+    "s": "Trakt Movies",
+    "sc": "Movies",
+    "t": "tkm",
+    "u": "http://trakt.tv/search/movies?q={{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "trakt.tv",
+    "r": 8,
+    "s": "Trakt Shows",
+    "sc": "TV",
+    "t": "tks",
+    "u": "http://trakt.tv/search/shows?q={{{s}}}"
+  },
+  {
+    "c": "Multimedia",
+    "d": "www.youtube.com",
+    "r": 463021,
+    "s": "YouTube",
+    "sc": "Video",
+    "t": "yt",
+    "u": "https://www.youtube.com/results?search_query={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "old.reddit.com",
+    "r": 68,
+    "s": "Reddit (old version)",
+    "sc": "Social",
+    "t": "redditold",
+    "u": "https://old.reddit.com/search?q={{{s}}}"
+  },
+  {
+    "c": "News",
+    "d": "www.reddit.com",
+    "r": 6065,
+    "s": "Reddit",
+    "sc": "Aggregators",
+    "t": "reddit",
+    "u": "https://www.reddit.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "www.reddit.com",
+    "r": 1443,
+    "s": "Reddit subreddit",
+    "sc": "Social",
+    "t": "reddits",
+    "u": "http://www.reddit.com/r/{{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "www.google.com",
+    "r": 1942262,
+    "s": "Google",
+    "sc": "Google",
+    "t": "g",
+    "u": "https://www.google.com/search?udm=14&q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "www.google.com",
+    "r": 49174,
+    "s": "Google",
+    "sc": "Google",
+    "t": "google",
+    "u": "https://www.google.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "google.com",
+    "r": 157,
+    "s": "Google Images",
+    "sc": "Google",
+    "t": "googleimages",
+    "u": "http://google.com/search?tbm=isch&q={{{s}}}&tbs=imgo:1"
+  },
+  {
+    "c": "Online Services",
+    "d": "twitter.com",
+    "r": 591,
+    "s": "Twitter",
+    "sc": "Social",
+    "t": "twitter",
+    "u": "https://twitter.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "x.com",
+    "r": 7870,
+    "s": "X",
+    "sc": "Social",
+    "t": "x",
+    "u": "https://x.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Multimedia",
+    "d": "www.last.fm",
+    "r": 150,
+    "s": "Last.fm",
+    "sc": "Music",
+    "t": "lastfm",
+    "u": "http://www.last.fm/search?q={{{s}}}"
+  },
+  {
+    "c": "Multimedia",
+    "d": "www.last.fm",
+    "r": 4,
+    "s": "Last.fm",
+    "sc": "Music",
+    "t": "last.fm",
+    "u": "http://www.last.fm/search?q={{{s}}}&from=ac"
+  },
+  {
+    "c": "Entertainment",
+    "d": "www.last.fm",
+    "r": 0,
+    "s": "last.fm",
+    "sc": "Audio",
+    "t": "lastfmmusic",
+    "u": "https://www.last.fm/music/{{{s}}}"
+  },
+  {
+    "c": "Entertainment",
+    "d": "anilist.co",
+    "r": 145,
+    "s": "anilist.co",
+    "sc": "Movies",
+    "t": "anilist",
+    "u": "https://anilist.co/search/anime?sort=SEARCH_MATCH&search={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "web.archive.org",
+    "r": 57,
+    "s": "Wayback Machine",
+    "sc": "Tools (URLs)",
+    "t": "archived",
+    "u": "https://web.archive.org/web/*/{{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "archive.org",
+    "r": 845,
+    "s": "Internet ",
+    "sc": "Tools",
+    "t": "archive",
+    "u": "https://archive.org/search.php?query={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "archive.is",
+    "r": 252,
+    "s": "Archive.is",
+    "sc": "Tools (URLs)",
+    "t": "archiveis",
+    "u": "http://archive.is/search/?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "www.archiveteam.org",
+    "r": 0,
+    "s": "Archive Team Wiki",
+    "sc": "Tools",
+    "t": "archiveteam",
+    "u": "http://www.archiveteam.org/index.php?title=Special%3ASearch&search={{{s}}}&fulltext=Search"
+  },
+  {
+    "c": "News",
+    "d": "archive.org",
+    "r": 0,
+    "s": "Internet Archive TV News",
+    "sc": "Broadcast",
+    "t": "archivetv",
+    "u": "https://archive.org/details/tv?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "web.archive.org",
+    "r": 23,
+    "s": "Archive.org",
+    "sc": "Tools",
+    "t": "archiveweb",
+    "u": "https://web.archive.org/web/*/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "gist.github.com",
+    "r": 48,
+    "s": "Github Gists",
+    "sc": "Programming",
+    "t": "gist",
+    "u": "https://gist.github.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "libgit2.github.com",
+    "r": 0,
+    "s": "libgit2 documentation",
+    "sc": "Libraries/Frameworks",
+    "t": "git2",
+    "u": "https://libgit2.github.com/libgit2/#HEAD/search/{{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "git-scm.com",
+    "r": 0,
+    "s": "Git Documentation",
+    "sc": "Programming",
+    "t": "gitdocs",
+    "u": "https://git-scm.com/search/results?search={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 1965,
+    "s": "Github",
+    "sc": "Programming",
+    "t": "git",
+    "u": "https://github.com/search?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 2132,
+    "s": "GitHub.com",
+    "sc": "Downloads (code)",
+    "t": "github",
+    "u": "http://github.com/search?q={{{s}}}&type=Everything&repo=&langOverride=&start_value=1"
+  },
+  {
+    "c": "Tech",
+    "d": "help.github.com",
+    "r": 0,
+    "s": "GitHub Help",
+    "sc": "Programming",
+    "t": "githubhelp",
+    "u": "https://help.github.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "github.com",
+    "r": 3,
+    "s": "Github Stars",
+    "sc": "Programming",
+    "t": "githubstars",
+    "u": "https://github.com/stars?utf8=%E2%9C%93&q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "www.gitignore.io",
+    "r": 4,
+    "s": "gitignore.io",
+    "sc": "Programming",
+    "t": "gitignore",
+    "u": "https://www.gitignore.io/api/{{{s}}}"
+  },
+  {
+    "c": "Shopping",
+    "d": "www.producthunt.com",
+    "r": 118,
+    "s": "Product Hunt",
+    "sc": "Online",
+    "t": "ph",
+    "u": "https://www.producthunt.com/search?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "www.linkedin.com",
+    "r": 961,
+    "s": "LinkedIn",
+    "sc": "Social",
+    "t": "linkedin",
+    "u": "https://www.linkedin.com/search/results/all/?keywords={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "djangopackages.com",
+    "r": 0,
+    "s": "Django Packages",
+    "sc": "Languages (python)",
+    "t": "djpackages",
+    "u": "http://djangopackages.com/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pypi.org",
+    "r": 15,
+    "s": "pypi.org",
+    "sc": "Languages (python)",
+    "t": "pypa",
+    "u": "https://pypi.org/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "pypi.org",
+    "r": 1599,
+    "s": "PyPI",
+    "sc": "Languages (python)",
+    "t": "pypi",
+    "u": "https://pypi.org/search/?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "docs.python.org",
+    "r": 1247,
+    "s": "Python",
+    "sc": "Languages (python)",
+    "t": "py",
+    "u": "https://docs.python.org/3/search.html?q={{{s}}}"
+  },
+  {
+    "c": "Tech",
+    "d": "crates.io",
+    "r": 855,
+    "s": "Cargo",
+    "sc": "Languages (other)",
+    "t": "cargo",
+    "u": "https://crates.io/search?q={{{s}}}"
+  }
+]
