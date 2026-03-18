@@ -207,6 +207,87 @@
     "u": "https://web.archive.org/web/*/{{{s}}}"
   },
   {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 10,
+    "s": "DuckDuckGo Calculator",
+    "sc": "Search (DDG)",
+    "t": "ddgc",
+    "u": "https://duckduckgo.com/?q={{{s}}}&ia=calculator"
+  },
+  {
+    "c": "Research",
+    "d": "duckduckgo.com",
+    "r": 3,
+    "s": "DuckDuckGo dictionary definitions",
+    "sc": "Reference (words)",
+    "t": "ddgd",
+    "u": "https://duckduckgo.com/?q={{{s}}}&ia=definition"
+  },
+  {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 3693,
+    "s": "DuckDuckGo",
+    "sc": "Search (DDG)",
+    "t": "ddg",
+    "u": "http://duckduckgo.com/?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 3692,
+    "s": "DuckDuckGo",
+    "sc": "Search (DDG)",
+    "t": "duck",
+    "u": "http://duckduckgo.com/?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 883,
+    "s": "DuckDuckGo Images",
+    "sc": "Search (DDG)",
+    "t": "ddgi",
+    "u": "https://duckduckgo.com/?q={{{s}}}&iax=images&ia=images"
+  },
+  {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 66,
+    "s": "DuckDuckGo Maps",
+    "sc": "Search (DDG)",
+    "t": "ddgm",
+    "u": "https://duckduckgo.com/?q={{{s}}}&iaxm=maps"
+  },
+  {
+    "c": "News",
+    "d": "duckduckgo.com",
+    "r": 12,
+    "s": "DuckDuckGo news",
+    "sc": "Aggregators",
+    "t": "ddgn",
+    "u": "http://duckduckgo.com/?q={{{s}}}&iar=news&ia=news"
+  },
+  {
+    "c": "Research",
+    "d": "duckduckgo.com",
+    "r": 415,
+    "s": "Reddit search (via DuckDuckGo)",
+    "sc": "Reference (fun)",
+    "t": "ddgr",
+    "u": "https://duckduckgo.com/?q=site:reddit.com+{{{s}}}"
+  },
+  {
+    "c": "Multimedia",
+    "d": "duckduckgo.com",
+    "r": 65,
+    "s": "DuckDuckGo Video Search",
+    "sc": "Video",
+    "t": "ddgv",
+    "u": "https://duckduckgo.com/?q={{{s}}}&iar=videos&iax=videos&ia=videos"
+  },
+  {
     "c": "Tech",
     "d": "gist.github.com",
     "r": 48,
@@ -340,5 +421,14 @@
     "sc": "Languages (other)",
     "t": "cargo",
     "u": "https://crates.io/search?q={{{s}}}"
+  },
+  {
+    "c": "Online Services",
+    "d": "duckduckgo.com",
+    "r": 3691,
+    "s": "DuckDuckGo",
+    "sc": "Search (DDG)",
+    "t": "",
+    "u": "http://duckduckgo.com/?q={{{s}}}"
   }
 ]
