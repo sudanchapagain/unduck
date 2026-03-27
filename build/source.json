@@ -213,7 +213,7 @@
     "s": "DuckDuckGo Calculator",
     "sc": "Search (DDG)",
     "t": "ddgc",
-    "u": "https://duckduckgo.com/?q={{{s}}}&ia=calculator"
+    "u": "https://noai.duckduckgo.com/?q={{{s}}}&ia=calculator"
   },
   {
     "c": "Research",
@@ -222,7 +222,7 @@
     "s": "DuckDuckGo dictionary definitions",
     "sc": "Reference (words)",
     "t": "ddgd",
-    "u": "https://duckduckgo.com/?q={{{s}}}&ia=definition"
+    "u": "https://noai.duckduckgo.com/?q={{{s}}}&ia=definition"
   },
   {
     "c": "Online Services",
@@ -231,7 +231,7 @@
     "s": "DuckDuckGo",
     "sc": "Search (DDG)",
     "t": "ddg",
-    "u": "http://duckduckgo.com/?q={{{s}}}"
+    "u": "http://noai.duckduckgo.com/?q={{{s}}}"
   },
   {
     "c": "Online Services",
@@ -240,7 +240,7 @@
     "s": "DuckDuckGo",
     "sc": "Search (DDG)",
     "t": "duck",
-    "u": "http://duckduckgo.com/?q={{{s}}}"
+    "u": "http://noai.duckduckgo.com/?q={{{s}}}"
   },
   {
     "c": "Online Services",
@@ -249,7 +249,7 @@
     "s": "DuckDuckGo Images",
     "sc": "Search (DDG)",
     "t": "ddgi",
-    "u": "https://duckduckgo.com/?q={{{s}}}&iax=images&ia=images"
+    "u": "https://noai.duckduckgo.com/?q={{{s}}}&iax=images&ia=images"
   },
   {
     "c": "Online Services",
@@ -258,7 +258,7 @@
     "s": "DuckDuckGo Maps",
     "sc": "Search (DDG)",
     "t": "ddgm",
-    "u": "https://duckduckgo.com/?q={{{s}}}&iaxm=maps"
+    "u": "https://noai.duckduckgo.com/?q={{{s}}}&iaxm=maps"
   },
   {
     "c": "News",
@@ -267,7 +267,7 @@
     "s": "DuckDuckGo news",
     "sc": "Aggregators",
     "t": "ddgn",
-    "u": "http://duckduckgo.com/?q={{{s}}}&iar=news&ia=news"
+    "u": "http://noai.duckduckgo.com/?q={{{s}}}&iar=news&ia=news"
   },
   {
     "c": "Research",
@@ -276,7 +276,7 @@
     "s": "Reddit search (via DuckDuckGo)",
     "sc": "Reference (fun)",
     "t": "ddgr",
-    "u": "https://duckduckgo.com/?q=site:reddit.com+{{{s}}}"
+    "u": "https://noai.duckduckgo.com/?q=site:reddit.com+{{{s}}}"
   },
   {
     "c": "Multimedia",
@@ -285,7 +285,7 @@
     "s": "DuckDuckGo Video Search",
     "sc": "Video",
     "t": "ddgv",
-    "u": "https://duckduckgo.com/?q={{{s}}}&iar=videos&iax=videos&ia=videos"
+    "u": "https://noai.duckduckgo.com/?q={{{s}}}&iar=videos&iax=videos&ia=videos"
   },
   {
     "c": "Tech",
@@ -429,6 +429,6 @@
     "s": "DuckDuckGo",
     "sc": "Search (DDG)",
     "t": "",
-    "u": "http://duckduckgo.com/?q={{{s}}}"
+    "u": "http://noai.duckduckgo.com/?q={{{s}}}"
   }
 ]
